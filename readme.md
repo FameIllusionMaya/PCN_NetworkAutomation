@@ -27,9 +27,10 @@ Authors
   <tr>  <th scope="row">#5</th>  <td> นาย วิศรุต</td>  <td>แก้วงาม</td> <td>61070210</td>  <td><img width="100" height="100" src="https://scontent.fbkk22-2.fna.fbcdn.net/v/t31.0-8/p960x960/22424170_1475444652532736_7000814947367213850_o.jpg?_nc_cat=105&_nc_sid=85a577&_nc_eui2=AeHcCiwqJlQg8ql8yPr4WGFoXegJgGbZ1Rpd6AmAZtnVGu5qAsMh4PnPLjo1mkBdKLL3rCqOzMZoZGO7AJUsLL_F&_nc_oc=AQkNfBGSrMsfvd2pmI2iTQ-XwJYguEJ_NSqk0jvbSXyv67zflqgtsdoMRwWQ7Gsk9pM&_nc_ht=scontent.fbkk22-2.fna&_nc_tp=6&oh=ca152602ef2dae19cb13d7307e51207a&oe=5EE6D354"></td></tr>
 </tbody></table>
 
----
 Assistance Teachers
 
+Assistance Teachers 
+---
 <table cellspacing="0">
 <tbody>
 <tr>  <th scope="row">#1</th>  <td> รศ.ดร.โชติพัชร์ ภรณวลัย</td> <td scope="col" width="150"><img width="100" height="100" src="https://www.it.kmitl.ac.th/wp-content/uploads/2017/12/Chotipat-300x300.jpg"></td></tr>
