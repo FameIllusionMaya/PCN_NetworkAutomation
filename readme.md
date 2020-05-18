@@ -28,7 +28,11 @@ Authors
 </tbody></table>
 
 ---
-## Assistance Teachers
-|<img src="https://www.it.kmitl.ac.th/wp-content/uploads/2017/12/Chotipat-300x300.jpg" width="120" height="120"></a>|<img src="https://www.it.kmitl.ac.th/wp-content/uploads/2017/12/Sumet-300x300.jpg" width="120" height="120"></a>|<img src="https://www.it.kmitl.ac.th/wp-content/uploads/2018/03/Lapas-300x300.jpg" width="120" height="120"></a>|
-|:---------------------:|:---------------------:|:---------------------:|
-|รศ.ดร.โชติพัชร์ ภรณวลัย     |ผศ.ดร.สุเมธ ประภาวัต |ผศ.ดร.ลภัส ประดิษฐ์ทัศนีย์ |
+Assistance Teachers
+
+<table cellspacing="0">
+<tbody>
+<tr>  <th scope="row">#1</th>  <td> รศ.ดร.โชติพัชร์ ภรณวลัย</td> <td scope="col" width="150"><img width="100" height="100" src="https://www.it.kmitl.ac.th/wp-content/uploads/2017/12/Chotipat-300x300.jpg"></td></tr>
+  <tr>  <th scope="row">#1</th>  <td> ผศ.ดร.สุเมธ ประภาวัต</td> <td scope="col" width="150"><img width="100" height="100" src="https://www.it.kmitl.ac.th/wp-content/uploads/2017/12/Sumet-300x300.jpg"></td></tr>
+  <tr>  <th scope="row">#1</th>  <td> ผศ.ดร.ลภัส ประดิษฐ์ทัศนีย์</td> <td scope="col" width="150"><img width="100" height="100" src="https://www.it.kmitl.ac.th/wp-content/uploads/2018/03/Lapas-300x300.jpg"></td></tr>
+</tbody></table>
