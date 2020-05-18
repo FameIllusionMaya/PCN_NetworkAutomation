@@ -1,0 +1,31 @@
+---
+- name: R1 config
+  hosts: router1
+  gather_facts: false
+  connection: local
+
+  vars:
+    cli:
+      username: admin
+      password: adminpass
+
+  tasks:
+     - name: Global config for R1
+       ios_config:
+         provider: "{{ cli }}"
+         lines:
+           - hostname R1
+           - int range g0/0 - 1
+           - ip nat inside
+           - int g0/2
+           - ip nat outside
+           - ip access-list extend NAT
+           - permit ip 192.168.1.0 0.0.0.3 any
+           - permit ip 192.168.10.0 0.0.0.255 any
+           - permit ip 192.168.2.0 0.0.0.3 any
+           - permit ip 192.168.20.0 0.0.0.255 any
+           - exit
+           - ip nat inside source list NAT interface g0/2 overload
+       register: print_output
+    
+     - debug: var=print_output
