@@ -1,0 +1,39 @@
+---
+
+- name: Install MySQL
+  hosts: database-servers
+  tasks:
+    - name: Install MySQL
+      apt: 
+        name: mysql-server
+        update_cache: yes
+    - name: Add Python MySQL DB
+      apt:
+        name: python-mysqldb
+        update_cache: yes
+
+
+- name: Configure MySQL
+  hosts: database-servers
+  tasks:
+    - name: Add mysql-user
+      mysql_user: name=www
+                  password=password
+                  priv=*.*:ALL
+                  host=%
+                  state=present
+    - name: Change blind address
+      ini_file: dest=/etc/mysql/my.cnf
+                section=mysqld
+                option=blind-address
+                value=0.0.0.0
+  handlers:
+    - name: restart mysql
+      service: name=mysql
+               enabled=yes
+               state=restarted
+
+
+
+# /sbin/iptables -A INPUT -i eth0 -s 192.168.33.0/24 -p tcp --destination-port 3306 -j ACCEPT
+# service iptables save

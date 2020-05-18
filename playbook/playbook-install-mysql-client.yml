@@ -1,0 +1,9 @@
+---
+- name: Install mysql-client for web-server
+  gather_facts: no
+  hosts: web-servers
+  tasks:
+    - name: Install mysql-client
+      apt:
+        name: mysql-client
+        update_cache: yes

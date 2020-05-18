@@ -1,0 +1,9 @@
+---
+- name: Install module for file server 
+  gather_facts: no
+  hosts: file-servers
+  tasks:
+    - name: Install vsftpd
+      apt:
+        name: vsftpd
+        update_cache: yes

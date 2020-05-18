@@ -1,0 +1,20 @@
+---
+- name: R1 config
+  hosts: router1
+  gather_facts: false
+  connection: local
+
+  vars:
+    cli:
+      username: admin
+      password: adminpass
+
+  tasks:
+     - name: Global config for R1
+       ios_config:
+         provider: "{{ cli }}"
+         lines:
+           - ip nat inside source static tcp 192.168.10.100 80 192.168.122.184 80
+       register: print_output
+    
+     - debug: var=print_output
