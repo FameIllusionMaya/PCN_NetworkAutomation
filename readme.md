@@ -18,7 +18,7 @@ Authors
 <th scope="col">Lastname</th>
 <!-- Language currently disabled: GitHub returns 'Shell' for most users <th scope="col">Language</th> -->
 <th scope="col">STD.code</th>
-<th scope="col" width="100">Picture</th>
+<th scope="col" width="150">Picture</th>
 </thead><tbody>
 <tr>  <th scope="row">#1</th>  <td><a href="https://github.com/fabpot">fabpot</a> นาย ฟุ้งเกียรติ</td>  <td>เผด็จตะคุ</td> <td>60070069</td>  <td><img width="100" height="100" src="https://scontent.fbkk22-4.fna.fbcdn.net/v/t1.0-9/75392681_2784770338252567_5489999090928320512_n.jpg?_nc_cat=109&_nc_sid=7aed08&_nc_eui2=AeHrnhMjGOhc6qtvOk9-YOSYzxmYQsTcVpPPGZhCxNxWk9A9lAzRioID37EDlLi0IRfY7ywuH8T8LwOqw6SBEH6e&_nc_oc=AQmPGGIHvfFVmHyGzakm_GCL_ZxLM6rFigUw-LIyN39LdG7fSIla8OGyjdNn6BK8V-I&_nc_ht=scontent.fbkk22-4.fna&oh=323c3d902d78d32d6c6de2b6d1482290&oe=5EE793F0"></td></tr>
   <tr>  <th scope="row">#1</th>  <td><a href="https://github.com/fabpot">fabpot</a> นาย ภัคพล</td>  <td>ตันวัฒนา</td> <td>61070153</td>  <td><img width="100" height="100" src="https://scontent.fbkk22-4.fna.fbcdn.net/v/t1.0-9/15037210_584062761785106_4397154544504754833_n.jpg?_nc_cat=111&_nc_sid=85a577&_nc_eui2=AeHeL6ZYFQy7OuD_vadTohR-qb_pVpCYl96pv-lWkJiX3jxSVpkKU_JqfSjgQQA4U2wmZR-IsjEfJ674RWH-De7l&_nc_oc=AQl_GfCWPk-bPY92QvpC4jVbGHNynX2P2XeFHYjs2GqmDmqVehncqnWpyAb2FCdot8E&_nc_ht=scontent.fbkk22-4.fna&oh=37c7b475c33185cb290f9cc2203d17ea&oe=5EE7F329"></td></tr>
