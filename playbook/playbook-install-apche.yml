@@ -1,0 +1,9 @@
+---
+- name: Install module for web server 
+  gather_facts: no
+  hosts: web-servers
+  tasks:
+    - name: Install apache2
+      apt:
+        name: apache2
+        update_cache: yes
