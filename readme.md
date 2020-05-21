@@ -8,7 +8,7 @@ Ansible ถูกออกแบบให้ทำงานแแบ Angentless 
 Information. 
 ---
 Document link: https://docs.google.com/document/d/1bxVOGRxbVvuRqnpdpGyNQNP8ZbLCYMNlfIG3CF5Um1I/edit?usp=sharing  
-Youtune link: www.youtube.com  
+Youtune link: https://youtu.be/_oKZk-gQctM 
 
 Authors 
 ---
